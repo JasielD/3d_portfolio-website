@@ -1,6 +1,7 @@
 import React from "react";
 import { experiences, skills } from "../constants";
 import CTA from "../components/CTA";
+import Connect from "../components/Connect";
 // import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 // import 'react-vertical-timeline-component/style.min.css';
 
@@ -9,7 +10,7 @@ const About = () => {
     <section className="max-container">
       <h1 className="head-text ">
         Hello, I'm
-        <span className="blue-gradient_text font-semibold drop-shadow">
+        <span className="blue-gradient_text font-semibold drop-shadow pl-2">
           Jasiel
         </span>
       </h1>
@@ -99,6 +100,7 @@ const About = () => {
       </div>
       <hr className="border border-slate-200"/>
       <CTA />
+      <Connect />
     </section>
   );
 };

@@ -26,6 +26,11 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import Table_Tennis_Racket from './Table_Tennis_Racket.svg'
+import Travel_Tracker from './Travel_Tracker.svg'
+import Portfolio from './Portfolio.svg'
+import yc_directory from './yc_directory.svg'
+import instagram from './instagram.svg'
 
 export {
     css,
@@ -55,5 +60,10 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    Table_Tennis_Racket,
+    Travel_Tracker,
+    Portfolio,
+    yc_directory,
+    instagram
 }
