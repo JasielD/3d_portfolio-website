@@ -1,7 +1,5 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+
 import {
-    car,
-    contact,
     css,
     estate,
     express,
@@ -11,24 +9,27 @@ import {
     javascript,
     linkedin,
     mongodb,
-    motion,
-    mui,
     nextjs,
     nodejs,
-    pricewise,
     react,
     redux,
     sass,
-    snapgram,
-    summiz,
     tailwindcss,
-    threads,
     typescript,
     Table_Tennis_Racket,
     Travel_Tracker,
     Portfolio,
     yc_directory,
-    instagram
+    Postgresql,
+    Firebase,
+    Postman,
+    MySQL,
+    Vite,
+    Vercel,
+    three_js,
+    Python,
+    jQuery,
+
 } from "../assets/icons";
 
 export const skills = [
@@ -68,15 +69,25 @@ export const skills = [
         type: "Database",
     },
     {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
+        imageUrl: Postgresql,
+        name: "PostgreSQL",
+        type: "Database",
     },
     {
-        imageUrl: mui,
-        name: "Material-UI",
+        imageUrl: three_js,
+        name: "Three.js",
         type: "Frontend",
     },
+    // {
+    //     imageUrl: motion,
+    //     name: "Motion",
+    //     type: "Animation",
+    // },
+    // {
+    //     imageUrl: mui,
+    //     name: "Material-UI",
+    //     type: "Frontend",
+    // },
     {
         imageUrl: nextjs,
         name: "Next.js",
@@ -111,62 +122,110 @@ export const skills = [
         imageUrl: typescript,
         name: "TypeScript",
         type: "Frontend",
+    },
+    {
+        imageUrl: Firebase,
+        name: "Firebase",
+        type: "Backend",
+    },
+    {
+        imageUrl: Postman,
+        name: "Postman",
+        type: "API Testing",
+    },
+    {
+        imageUrl: MySQL,
+        name: "MySQL",
+        type: "Database",
+    },
+    {
+        imageUrl: Vite,
+        name: "Vite",
+        type: "Frontend",
+    },
+    {
+        imageUrl: Vercel,
+        name: "Vercel",
+        type: "Deployment",
+    },
+    {
+        imageUrl: Python,
+        name: "Python",
+        type: "Programming Language",
+    },
+    {
+        imageUrl: jQuery,
+        name: "jQuery",
+        type: "Frontend",
     }
+
 ];
 
 export const experiences = [
+    // {
+    //     title: "React.js Developer",
+    //     company_name: "Starbucks",
+    //     icon: starbucks,
+    //     iconBg: "#accbe1",
+    //     date: "March 2020 - April 2021",
+    //     points: [
+    //         "Developing and maintaining web applications using React.js and other related technologies.",
+    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //         "Implementing responsive design and ensuring cross-browser compatibility.",
+    //         "Participating in code reviews and providing constructive feedback to other developers.",
+    //     ],
+    // },
+    // {
+    //     title: "React Native Developer",
+    //     company_name: "Tesla",
+    //     icon: tesla,
+    //     iconBg: "#fbc3bc",
+    //     date: "Jan 2021 - Feb 2022",
+    //     points: [
+    //         "Developing and maintaining web applications using React.js and other related technologies.",
+    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //         "Implementing responsive design and ensuring cross-browser compatibility.",
+    //         "Participating in code reviews and providing constructive feedback to other developers.",
+    //     ],
+    // },
+    // {
+    //     title: "Web Developer",
+    //     company_name: "Shopify",
+    //     icon: shopify,
+    //     iconBg: "#b7e4c7",
+    //     date: "Jan 2022 - Jan 2023",
+    //     points: [
+    //         "Developing and maintaining web applications using React.js and other related technologies.",
+    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //         "Implementing responsive design and ensuring cross-browser compatibility.",
+    //         "Participating in code reviews and providing constructive feedback to other developers.",
+    //     ],
+    // },
+    // {
+    //     title: "Full stack Developer",
+    //     company_name: "Meta",
+    //     icon: meta,
+    //     iconBg: "#a2d2ff",
+    //     date: "Jan 2023 - Present",
+    //     points: [
+    //         "Developing and maintaining web applications using React.js and other related technologies.",
+    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //         "Implementing responsive design and ensuring cross-browser compatibility.",
+    //         "Participating in code reviews and providing constructive feedback to other developers.",
+    //     ],
+    // },
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title:"Backend Developer Intern",
+        company_name:"CodeFlare Labs",
+        icon: "https://media.licdn.com/dms/image/v2/D560BAQEsSSMsfCKDvw/company-logo_200_200/B56Zf7bGeuHoAI-/0/1752269875754/codeflare_labs_logo?e=2147483647&v=beta&t=oYJkLG7f3d2Jtw4mCyYfgJTcXfrSuKLWDaWQ-V6xIEk",
         iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+        date:"August 2025 - November 2025",
+        points:[
+            "Design and implement MongoDB database schemas and performed CRUD operations using Mongoose for efficient data management.", 
+            " Collaborating with the development team to integrate backend services and troubleshoot issues.",
         ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
+
+    }
 ];
 
 export const socialLinks = [
