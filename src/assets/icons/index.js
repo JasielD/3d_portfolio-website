@@ -18,19 +18,20 @@ import estate from './estate.svg'
 import arrow from './arrow.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
-import Table_Tennis_Racket from './table_tennis_racket.svg'
-import Travel_Tracker from './travel_Tracker.svg'
-import Portfolio from './portfolio.svg'
+import Table_Tennis_Racket from './Table_Tennis_Racket.svg'
+import Travel_Tracker from './Travel_Tracker.svg'
+import Portfolio from './Portfolio.svg'
 import yc_directory from './YC_Directory.svg'
-import Postgresql from './postgresql.svg'
-import three_js from './three.js.svg'
-import Python from './python.svg'
-import MySQL from './mySQL.svg'
+import Postgresql from './Postgresql.svg'
+import three_js from './Three.js.svg'
+import Python from './Python.svg'
+import MySQL from './MySQL.svg'
 import jQuery from './jQuery.svg'
-import Postman from './postman.svg'
-import Vite from './vite.js.svg'
-import Vercel from './vercel.svg'
-import Firebase from './firebase.svg'
+import Postman from './Postman.svg'
+import Vite from './Vite.js.svg'
+import Vercel from './Vercel.svg'
+import Firebase from './Firebase.svg'
+import Arduino from './Arduino.svg'
 
 export {
     css,
@@ -65,5 +66,6 @@ export {
     Postman,
     Vite,
     Vercel,
-    Firebase
+    Firebase,
+    Arduino
 }

@@ -29,6 +29,7 @@ import {
     three_js,
     Python,
     jQuery,
+    Arduino
 
 } from "../assets/icons";
 
@@ -157,6 +158,11 @@ export const skills = [
         imageUrl: jQuery,
         name: "jQuery",
         type: "Frontend",
+    },
+    {
+        imageUrl: Arduino,
+        name: "Arduino",
+        type: "IoT",
     }
 
 ];
